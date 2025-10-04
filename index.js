@@ -68,11 +68,11 @@ const lastYearDate = `${lastYear}${month}${day}`; // same month/day, previous ye
     console.error(err);
   }
 }
-
-// Call function
+//call the function
 getWeatherMonthly("Cairo");
- document.queryselector(".weather").onclick = (e)=>{
-x=document.queryselector("#city_choice").value
+ document.querySelector(".weather").onclick = (e)=>{
+x=document.querySelector("#city_choice").value
    e.preventDefault()
    getWeatherMonthly(x);}
+
 
