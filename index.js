@@ -71,3 +71,7 @@ const lastYearDate = `${lastYear}${month}${day}`; // same month/day, previous ye
 
 // Call function
 getWeatherMonthly("Cairo");
+ document.queryselector(".weather").onclick = (e)=>{
+x=document.queryselector("#city_choice).value
+   e.preventDefault()
+   getWeatherMonthly(x);}
