@@ -22,7 +22,7 @@ body{
 }
 #Home{
     min-height: 100vh;
-    background-image: url(/images/background.jpg);
+    background-image: url(/background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ main .small_p {
     letter-spacing: 2;
 }
 #sWeather{
-    background-image: url(/images/waether.jpg);
+    background-image: url(/waether.jpg);
     min-height: 100vh;
     align-content: center;
     background-position: center;
@@ -186,7 +186,7 @@ button:hover{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/images/mariia-shalabaieva-HyyHIYz_l0A-unsplash.jpg);
+    background-image: url(/mariia-shalabaieva-HyyHIYz_l0A-unsplash.jpg);
     align-content: center;
     justify-content: center;
     min-height: 100vh;
@@ -221,4 +221,5 @@ button:hover{
     margin-top: -25px;
     font-size: 20px;
     font-style: italic;
+
 }
